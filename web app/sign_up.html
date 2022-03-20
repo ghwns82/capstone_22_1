@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="sign_header">
+        <button class="arrow_left">
+            <i class="fa-solid fa-arrow-left fa-2x"></i>
+        </button>
+        <h1 class="sign_ment">회원가입</h1>
+    </header>
+    <main class="index_main">
+        <form action="#" method="get" id="login-form">
+            <h1 class="form_ment">이메일 주소</h1>
+            <input id="email" name="email" type="text" placeholder="예) kream@kream.co.kr" onchange="change_color()">
+            <h1 class="form_ment">비밀번호</h1>
+            <input id="password" name="password" type="password" onchange="change_color()">
+            <label for="sneakers" class="form_ment">스니커즈 사이즈</label>
+            <select id="sneakers" onchange="change_color()">
+                <option value="defalut">사이즈 선택해주세요</option>
+                <option value="230">230</option>
+                <option value="240">240</option>
+                <option value="250">250</option>
+                <option value="260">260</option>
+                <option value="270">270</option>
+                <option value="280">280</option>
+            </select>
+            <div class="check_box">
+                <div class="check">
+                    <input type="checkbox" name="color" value="blue">
+                </div>
+                <p>[필수] 만 14세 이상이며 모두 동의합니다.</P>
+            </div>
+            <div class="check_box">
+                <div class="check">
+                    <input type="checkbox" name="color" value="red">
+                </div>
+                <p>[선택] 광고성 정보 수신에 모두 동의합니다.</P>
+            </div>
+            <input id="sign_up" onchange="change_color()" type="submit" value="가입하기">
+        </form>
+
+
+    </main>
+    <script src="https://kit.fontawesome.com/612ed4556b.js" crossorigin="anonymous"></script>
+    <script src="js/sign_up.js"></script>
+</body>
+
+</html>

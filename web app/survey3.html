@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+
+<body class="body_survey">
+    <div class="survey_back">
+        <header class="survey_header">
+            <p>귀하의 마감시간은</p>
+        </header>
+        <main class="survey_main" method="post">
+            <form method="get" id="survey_form" action="main.html">
+                <div class="check" id="first">
+                    <input type=radio name="suv3" value="6시~9시" id="one" />
+                    <label for="one">6시 ~ 9시</label>
+                </div>
+                <div class="check" id="second">
+                    <input type=radio name="suv3" value="8시~10시" id="two" />
+                    <label for="two">8시 ~ 10시</label>
+                </div>
+                <div class="check" id="thrid">
+                    <input type=radio name="suv3" value="10시~12시" id="three" />
+                    <label for="three">10시 ~ 12시</label>
+                </div>
+            </form>
+            <div class="next">
+                <div></div>
+                <button type="submit" form="survey_form">제출</button>
+            </div>
+
+        </main>
+    </div>
+    <script src="https://kit.fontawesome.com/612ed4556b.js " crossorigin="anonymous "></script>
+    <script src="js/survey.js"></script>
+</body>
+
+</html>

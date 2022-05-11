@@ -2,6 +2,8 @@
 
 ## analyze.py
 
+cmd 창에서
+
 {anaconda python.exe 경로} {analyze.py 경로} {인자1 : 장소} {인자2 : 업종} {인자3 : 저장 디렉토리 name, 필수 아님}
 
 예시
